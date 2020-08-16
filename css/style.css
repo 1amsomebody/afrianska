@@ -53,3 +53,116 @@
   width: 1px !important; 
   overflow: hidden;
 }
+
+
+/* ===================================
+        #FOOTER                       
+  ==================================== */
+
+  
+.site-footer {
+  /* position: absolute;
+  z-index: 1000; */
+  width: 1270px;
+  left: 0;
+  padding: 70px 200px;
+  margin: 0 auto;
+  background-color: #316099;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 200px 0px 0px;
+  
+}
+.footer-top {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 96px;
+}
+.footer-top-txt {
+  width: 460px;
+  margin-right: 180px;
+  color: #fff;
+}
+.footer-top-txt h1 {
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+}
+.footer-top-txt p {
+  opacity: 0.6;
+  line-height: 26px;
+}
+.footer-top-link {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.go-link {
+  width: 220px;
+  height: 56px; 
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: #5A98D0;
+  color: #fff;
+  border-radius: 10px;
+  text-decoration: none;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+}
+.go-link:hover {
+  background-color: #5a99d0d0;
+}
+.go-link:active {
+  background-color: #5a99d06c;
+}
+.horizontal-link {
+  position: absolute;
+  width: 10073px;
+  left: 0;
+}
+
+.footer-bottom {
+  display: flex;
+  margin-top: 96px;
+  margin-bottom: 64px;
+  color: #fff;
+}
+.footer-bottom-text {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.footer-bottom-text img {
+  display: inline-flex;
+}
+.footer-bottom-text h2 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.footer-list {
+  width: 299px;
+  padding: 0;
+  list-style-type: none;
+}
+.footer-list li {
+  margin-bottom: 16px;
+}
+.footer-btm-link {
+  text-decoration: none;
+  color: #fff;
+}
+.footer-btm-link:hover {
+  text-decoration: underline;
+}
+.footer-list-first {
+  margin-right: 100px;
+}
+.copyright {
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  opacity: 0.4;
+  color: #fff;
+}
